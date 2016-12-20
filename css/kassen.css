@@ -1,0 +1,171 @@
+
+/* start navigation */
+.navbar-default {
+  background:  rgba(255,255,255,0.95);
+  margin:auto;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
+  border: none;
+  margin-bottom: 0;
+   
+}
+.navbar-brand, .navbar-nav li a {
+  line-height: 30px;
+  /*background-color:green;*/
+  width:160px;
+
+}
+
+.menulinje{
+	margin-top:4% !important;
+	margin-left:0.1% !important;}
+	
+
+.menulinjekurv{
+	margin-top:2% !important;	
+	margin-left:-3% !important;}
+	
+
+.navbar-default .navbar-nav li a {
+  font-size: 15px;
+  letter-spacing: 1px;
+  
+}
+
+
+
+
+
+
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+color: #aca49c;
+font-size: 0.875em;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+color: #aca49c;
+font-size: 0.875em;
+}
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+color: #bbb5af;
+}
+input::placeholder,
+textarea::placeholder {
+color: #aca49c;
+font-size: 0.875em;
+}
+input:focus::placeholder,
+textarea::focus:placeholder {
+color: #white;
+}
+input::-ms-placeholder,
+textarea::-ms-placeholder {
+color: black;
+font-size: 0.875em;
+}
+input:hover::-webkit-input-placeholder,
+textarea:hover::-webkit-input-placeholder {
+font-size: 0.875em;
+}
+input:hover:focus::-webkit-input-placeholder,
+textarea:hover:focus::-webkit-input-placeholder {
+color: black;
+}
+body {
+background-color:rgba(214,197,171,0.40);
+font-family: 'Roboto', cursive;
+}
+header {
+position: relative;
+margin: 80px 0 25px 0;
+font-size: 2.3em;
+text-align: center;
+letter-spacing: 7px;
+}
+form {
+position: relative;
+float: left;
+width: 40%;
+margin-left: 15%;
+/*margin: 50px auto 100px auto;*/
+}
+input {
+/* font-family: 'The Girl Next Door', cursive;*/
+font-size: 0.875em;
+width: 90%;
+max-width: 90%;
+height: 50px;
+padding: 15px 15px 15px 15px;
+margin: 2px 0px 2px 0px;
+text-color: black;
+/*border-bottom: none;*/
+transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+}
+input:hover {
+background: white;
+color: black;
+}
+#submit {
+width: 100%;
+background-color: white;
+padding: 0;
+margin: 2px 0px 2px 0px;
+font-size: 0.875em;
+outline: none;
+border: solid 1px;
+}
+#submit:hover {
+background-color:rgba(214,197,171,0.40);
+}
+#visordre {
+width: 30%;
+height:auto;
+background-color:white;
+text-align: center;
+color: black;
+margin-left:1%;
+float: left;
+text-color: black;
+}
+/* start navigation */
+.navbar-default {
+background: rgba(255,255,255,0.95);
+margin:auto;
+box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
+border: none;
+margin-bottom: 0;
+}
+.navbar-brand, .navbar-nav li a {
+line-height: 7%;
+/*background-color:green;*/
+}
+.menulinje{
+margin-top:2.6%;
+margin-left:-4%;
+width:160px;
+}
+#forsendelse {
+height: 9.5%;
+width: 36%;
+margin-left: 15%;
+margin-top: 7%;
+text-align: center;
+}
+.menulinjekurv{
+margin-top:1%; 
+}
+/*.navbar-default .navbar-brand {
+color: #5C5C5C;
+font-size: 22px;
+font-weight: bold;
+letter-spacing: 2px;
+}*/
+.navbar-default .navbar-nav li a {
+font-size: 15px;
+letter-spacing: 1px;
+}

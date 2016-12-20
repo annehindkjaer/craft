@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body
+	{
+	background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    position: relative;
+	}
+
+
+
+.produktordre{
+	height: 300px;
+	width:80%;
+	border-style: solid;
+	margin-top: 8%;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+
+.totalpris {
+	height: 100px;
+	width: 100px;
+	margin-left:83%;
+	}
+
+button {
+	margin-top: 6%;
+	border-style: solid;
+	background-color: white;
+	border-color: black;
+	background: #F7F7F7;
+}
+	
+a:link {
+	color: darkgrey;
+	}
+
+a:visited {
+	color: grey;
+	}
+
+a:hover {
+	color: black;
+	}
+
+a:active {
+	color: black;
+	
+	}
+	
+.godkend{
+	
+	border-style: solid;
+	
+	
+	}
+	
+	
+
+#pnavn {
+	margin-left:3%;
+	}	
+	
+#img{
+	float:left;
+	height:48%;
+	width:20%;
+	margin-left:3%;
+	/*background-color:blue;*/
+		
+		}
+
+	
+#pris{
+	float:left;
+	height:15%;
+	width:20%;
+	/*background-color:grey;*/
+	margin-bottom:1%;
+	margin-left:4%;
+	}
+	
+#pbeskriv{
+	float:left;
+	height:16%;
+	width:70%;
+	/*background-color:grey;*/
+	margin-bottom:1%;
+	margin-left:4%;
+	}
+
+
+#antal{
+	float:left;
+	height:15%;
+	width:20%;
+	/*background-color:grey;*/
+	margin-bottom:1%;
+	margin-top:3%;
+	margin-left:4%;
+	}
+	
+
+#slet {
+	margin-left:90%;
+	margin-top: -4%;
+	border-style: solid;
+  	outline: none;
+  	cursor: pointer;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+	}
